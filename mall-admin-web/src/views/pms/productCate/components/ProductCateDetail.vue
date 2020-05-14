@@ -41,8 +41,7 @@
       </el-form-item>
       <el-form-item v-for="(filterProductAttr, index) in filterProductAttrList"
                     :label="index | filterLabelFilter"
-                    :key="filterProductAttr.key"
-      >
+                    :key="filterProductAttr.key">
         <el-cascader
           clearable
           v-model="filterProductAttr.value"
@@ -67,7 +66,7 @@
   </el-card>
 </template>
 
-<!--脚本片段-->
+<!--脚本片段**************************************** -->
 <script>
   import {fetchList, createProductCate, updateProductCate, getProductCate} from '@/api/productCate';
   import {fetchListWithAttr} from '@/api/productAttrCate';

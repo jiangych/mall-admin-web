@@ -96,6 +96,7 @@
   </div>
 </template>
 
+<!-- 脚本 -->
 <script>
   import {fetchList,deleteProductCate,updateShowStatus,updateNavStatus} from '@/api/productCate'
 
