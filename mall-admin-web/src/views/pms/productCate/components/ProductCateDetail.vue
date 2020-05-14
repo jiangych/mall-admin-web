@@ -67,6 +67,7 @@
   </el-card>
 </template>
 
+<!--脚本片段-->
 <script>
   import {fetchList, createProductCate, updateProductCate, getProductCate} from '@/api/productCate';
   import {fetchListWithAttr} from '@/api/productAttrCate';
